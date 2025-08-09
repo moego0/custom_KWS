@@ -1,6 +1,7 @@
 ### 🎧 Keyword Spotting (KWS) — Data, Model, Pipeline
 
-Build and train a compact CNN to detect a custom keyword from 1‑second audio clips. This repo focuses on three modern, streamlined building blocks:
+A compact CNN-based pipeline for detecting a custom keyword from a specific speaker.
+This repository provides a streamlined workflow with three main building blocks:
 
 - agument_data.py — data recording, augmentation, ESC‑50 preprocessing, MFCCs
 - bulid_model.py — CNN definition and training/export
@@ -11,6 +12,8 @@ Build and train a compact CNN to detect a custom keyword from 1‑second audio c
 - Rich augmentations (pitch/time/noise/filters/reverb/echo/etc.)
 - Balanced negatives from ESC‑50, fixed length
 - Keras/TensorFlow training, exports `.h5` and `.tflite`
+- 
+confusion_matrix.png
 
 ### 🚀 Quick Start
 1) Create and activate a virtual environment (recommended)

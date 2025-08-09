@@ -1,0 +1,31 @@
+# Ignore everything by default
+*
+
+# But keep git metadata
+!.gitignore
+
+# Keep essential source files and docs
+!README.md
+!UI.md
+!agument_data.py
+!bulid_model.py
+!pipline.py
+!TESTING/
+!sdk/
+
+# Within TESTING and SDK, include all files
+!TESTING/**
+!sdk/**
+
+# Common environment/artifacts (still ignored unless explicitly whitelisted)
+venv/
+*.h5
+*.tflite
+*.wav
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+

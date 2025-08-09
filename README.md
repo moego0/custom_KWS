@@ -14,7 +14,8 @@ This repository provides a streamlined workflow with three main building blocks:
 - Keras/TensorFlow training, exports `.h5` and `.tflite`
 
   <img src="confusion_matrix.png" alt="Confusion Matrix" width="400">
-
+## 📂 Project Structure
+```text
 keyword-spotting/
 ├── agument_data.py         # Data recording, augmentation, MFCC extraction
 ├── bulid_model.py          # CNN definition, training, and export

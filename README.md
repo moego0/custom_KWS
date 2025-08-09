@@ -12,8 +12,10 @@ This repository provides a streamlined workflow with three main building blocks:
 - Rich augmentations (pitch/time/noise/filters/reverb/echo/etc.)
 - Balanced negatives from ESC‑50, fixed length
 - Keras/TensorFlow training, exports `.h5` and `.tflite`
-- 
-confusion_matrix.png
+
+  
+![Confusion Matrix](confusion_matrix.png)
+
 
 ### 🚀 Quick Start
 1) Create and activate a virtual environment (recommended)

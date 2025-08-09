@@ -13,7 +13,8 @@ This repository provides a streamlined workflow with three main building blocks:
 - Balanced negatives from ESC‑50, fixed length
 - Keras/TensorFlow training, exports `.h5` and `.tflite`
 
-  
+  <img src="confusion_matrix.png" alt="Confusion Matrix" width="400">
+
 ![Confusion Matrix](confusion_matrix.png)
 
 

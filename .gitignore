@@ -1,31 +1,24 @@
-# Ignore everything by default
-*
+# Ignore specific folders
+models/
+negative_samples/
+output/
+processed_esc50/
+recorded_samples/
+TESTING/
+sdk/
 
-# But keep git metadata
-!.gitignore
+# Ignore specific files
+run_api.bat
+kws_model.tflite
 
-# Keep essential source files and docs
-!README.md
-!UI.md
-!agument_data.py
-!bulid_model.py
-!pipline.py
-!TESTING/
-!sdk/
-
-# Within TESTING and SDK, include all files
-!TESTING/**
-!sdk/**
-
-# Common environment/artifacts (still ignored unless explicitly whitelisted)
-venv/
-*.h5
-*.tflite
-*.wav
+# Python artifacts
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Environment
+venv/
+
+# OS files
 .DS_Store
-
-

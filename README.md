@@ -29,6 +29,7 @@ keyword-spotting/
 ├── requirements.txt        # Dependencies list
 ├── README.md               # Project documentation
 └── confusion_matrix.png    # Example evaluation image
+```
 
 ### 🚀 Quick Start
 1) Create and activate a virtual environment (recommended)

@@ -15,8 +15,19 @@ This repository provides a streamlined workflow with three main building blocks:
 
   <img src="confusion_matrix.png" alt="Confusion Matrix" width="400">
 
-![Confusion Matrix](confusion_matrix.png)
-
+keyword-spotting/
+├── agument_data.py         # Data recording, augmentation, MFCC extraction
+├── bulid_model.py          # CNN definition, training, and export
+├── pipline.py              # End-to-end workflow (record → augment → preprocess → train)
+├── recorded_samples/       # Your recorded keyword audio
+├── augmented_data/         # Augmented versions of recorded samples
+├── ESC-50/                 # ESC-50 dataset (negatives)
+│   ├── audio/
+│   └── meta/esc50.csv
+├── output/                 # Training logs, plots, evaluation results
+├── requirements.txt        # Dependencies list
+├── README.md               # Project documentation
+└── confusion_matrix.png    # Example evaluation image
 
 ### 🚀 Quick Start
 1) Create and activate a virtual environment (recommended)
